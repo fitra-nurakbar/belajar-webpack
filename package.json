@@ -1,0 +1,43 @@
+{
+  "name": "belajar-webpack",
+  "version": "1.0.0",
+  "description": "belajar menggunakan webpack",
+  "private": "true",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "webpack-dev-server --open --config webpack.config.js",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/fitra-nurakbar/belajar-webpack"
+  },
+  "bugs": {
+    "url": "https://github.com/fitra-nurakbar/belajar-webpack/issues"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "@webpack-cli/generators": "^3.0.4",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.4",
+    "dotenv": "^16.0.3",
+    "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "node-sass": "^9.0.0",
+    "prettier": "^2.8.8",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.3.0",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-middleware": "^6.1.1",
+    "webpack-dev-server": "^4.15.0",
+    "webpack-hot-middleware": "^2.25.3",
+    "workbox-webpack-plugin": "^6.5.4"
+  }
+}
